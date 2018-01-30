@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/jonas/Documents/Personal/kod/new_project/new_project'
+let g:netrw_dirhist_2='/Users/jonas/.theano'
+let g:netrw_dirhist_3='/Users/jonas'
+let g:netrw_dirhist_4='/Users/jonas/.theano'
+let g:netrw_dirhist_5='/Users/jonas/.matplotlib'
+let g:netrw_dirhist_6='/Users/jonas/.irssi'
