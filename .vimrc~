@@ -7,6 +7,9 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
+" HTML CSS JSON etc formatter
+Plugin 'maksimr/vim-jsbeautify'
+
 " plugin on GitHub repo
 " Plugin 'tpope/vim-fugitive'
 " plugin from http://vim-scripts.org/vim/scripts.html
