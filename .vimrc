@@ -11,7 +11,7 @@ set showcmd
 set list
 set listchars=tab:▸\ ,eol:¬
 " Make it possible to delete tabs etc.
-set backspace = indent, start
+set backspace=indent,start
 " js beautifier required
 let g:editorconfig_Beautifier = "~/.vim/.jsBeautifierConfig"
 
