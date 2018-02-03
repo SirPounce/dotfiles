@@ -3,7 +3,13 @@ set nocompatible	"Turning off compatible mode
 filetype plugin indent on	"To allow file type recognition etc.   
 set number	"Line numbers
 syntax on	"Syntax Highlighting
+set hidden
 
+" Let vim store backup/swap/undo files in these directories
+" The double // will create files with whole path expanded.
+set backupdir=~/.vim/tmp/backup//
+set directory=~/.vim/tmp/swap//
+set undodir=~/.vim/tmp/undo//
 " Show commands as they are being written
 set showcmd
 
