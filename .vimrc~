@@ -49,6 +49,9 @@ syntax on
 "set list
 "set listchars=tab:▸\ ,eol:
 
+" js beautifier required
+let g:editorconfig_Beautifier = "~/.vim/.jsBeautifierConfig"
+
 " Show commands as they are being written
 set showcmd
 
