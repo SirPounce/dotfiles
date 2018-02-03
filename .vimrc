@@ -7,10 +7,11 @@ syntax on	"Syntax Highlighting
 " Show commands as they are being written
 set showcmd
 
-	" Make it easier to see tabs and newlines
-"set list
-"set listchars=tab:▸\ ,eol:
-
+	    " Make it easier to see tabs and newlines
+set list
+set listchars=tab:▸\ ,eol:¬
+" Make it possible to delete tabs etc.
+set backspace = indent, start
 " js beautifier required
 let g:editorconfig_Beautifier = "~/.vim/.jsBeautifierConfig"
 
