@@ -1,49 +1,45 @@
-set nocompatible              " be iMproved, required
-filetype off                  " required
+" Vim settings
+set nocompatible	"Turning off compatible mode          
+filetype plugin indent on	"To allow file type recognition etc.   
+set number	"Line numbers
+syntax on	"Syntax Highlighting
 
+" Show commands as they are being written
+set showcmd
 " set the runtime path to include Vundle and initialize
 "
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
+"set rtp+=~/.vim/bundle/Vundle.vim
+"call vundle#begin()
+"Plugin 'VundleVim/Vundle.vim'
 
 " HTML CSS JSON etc formatter
-Plugin 'maksimr/vim-jsbeautify'
+"Plugin 'maksimr/vim-jsbeautify'
 
 " plugin on GitHub repo
 " Plugin 'tpope/vim-fugitive'
 " plugin from http://vim-scripts.org/vim/scripts.html
 " Plugin 'L9'
 " Git plugin not hosted on GitHub
-Plugin 'git://git.wincent.com/command-t.git'
+"Plugin 'git://git.wincent.com/command-t.git'
 
 " The sparkup vim script is in a subdirectory of this repo called vim.
 " Pass the path to set the runtimepath properly.
-Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+"Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Install L9 and avoid a Naming conflict if you've already installed a
 " different version somewhere else.
 " Plugin 'ascenator/L9', {'name': 'newL9'}
 
 " Python autofill and stuffs
-Plugin 'Valloric/YouCompleteMe'
+"Plugin 'Valloric/YouCompleteMe'
 
 " Latex Plugins
 
 " VimTex Plugin for most latex functionality
-Plugin 'lervag/vimtex'
+"Plugin 'lervag/vimtex'
 
 " VUNDLE END!
 "
-call vundle#end()            " required
-
-" Vim settings
-filetype plugin indent on    " required
-
-	" Line numbers
-set number
-
-	" Syntax highlighting
-syntax on
+"call vundle#end()            " required
 
 	" Make it easier to see tabs and newlines
 "set list
