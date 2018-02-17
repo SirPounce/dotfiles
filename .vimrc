@@ -69,6 +69,9 @@ nnoremap <leader>gc :Gcommit --verbose<CR>
 " Same as running git checkout %
 nnoremap <leader>Gr :Gread<CR>
 
+" Push the changes
+nnoremap <leader>Gp :Gpush<CR>
+
 
 
 if has("vms")
