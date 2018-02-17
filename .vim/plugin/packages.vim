@@ -24,6 +24,7 @@ call minpac#add('tpope/vim-commentary')
 call minpac#add('tpope/vim-repeat')
 call minpac#add('tpope/vim-fugitive')
 call minpac#add('honza/vim-snippets')
+call minpac#add('scrooloose/nerdtree')
 
 " Colorschemes
 "call minpac#add('morhetz/gruvbox', {'type': 'opt'})
