@@ -17,6 +17,9 @@ if has('clipboard')
   set clipboard^=unnamed
 endif
 
+" Fixing backspace over linebreak
+set backspace=indent,eol,start
+
 " Let vim store backup/swap/undo files in these directories
 " The double // will create files with whole path expanded.
 set backupdir=~/.vim/tmp/backup//
