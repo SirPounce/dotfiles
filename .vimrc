@@ -1,9 +1,12 @@
 " Vim settings
-set nocompatible	"Turning off compatible mode          
 filetype plugin indent on	"To allow file type recognition etc.   
 set number	"Line numbers
 syntax on	"Syntax Highlighting
 set hidden
+
+" Remap leader to space
+let mapleader="\<Space>"
+let maplocalleader="\<Space>"
 
 " NERDTree settings
 noremap <C-n> :NERDTreeToggle<CR>
@@ -28,11 +31,9 @@ set undodir=~/.vim/tmp/undo//
 " Show commands as they are being written
 set showcmd
 
-	    " Make it easier to see tabs and newlines
+" Make it easier to see tabs and newlines
 set list
 set listchars=tab:▸\ ,eol:¬
-" Make it possible to delete tabs etc.
-set backspace=indent,start
 " js beautifier required
 let g:editorconfig_Beautifier = "~/.vim/.jsBeautifierConfig"
 
@@ -46,6 +47,27 @@ let g:tex_flavor = 'latex'
 " let g:vimtex_view_general_viewer = '/Applications/Skim.app/Contents/SharedSupport/displayline'
 " let g:vimtex_view_general_options = '-r @line @pdf @tex'
 " let g:vimtex_fold_enabled = 0 "for opening large files"
+"
+
+" Fugitive settings (git)
+" -- Tpope fugitive commands --
+" Starting with <leader>g for harmless commands
+" Starting with <leader>G for potentially harmful commands
+
+" Run git commit -u
+nnoremap <leader>gu :silent! Git add -u<CR>:redraw!<CR>
+
+" Add file corresponding to current buffer
+nnoremap <leader>ga :Gwrite<CR>
+
+" Open commit message in a new buffer
+" --verbose so that the changes are visible
+"  while in the commit message
+nnoremap <leader>gc :Gcommit --verbose<CR>
+
+" Revert current file to last checked in version
+" Same as running git checkout %
+nnoremap <leader>Gr :Gread<CR>
 
 
 
