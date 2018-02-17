@@ -11,6 +11,12 @@ augroup NERDTreeCommand
   autocmd!
   autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 augroup end
+
+" Yank to clipboard settings
+if has('clipboard')
+  set clipboard^=unnamed
+endif
+
 " Let vim store backup/swap/undo files in these directories
 " The double // will create files with whole path expanded.
 set backupdir=~/.vim/tmp/backup//
