@@ -5,6 +5,12 @@ set number	"Line numbers
 syntax on	"Syntax Highlighting
 set hidden
 
+" NERDTree settings
+noremap <C-n> :NERDTreeToggle<CR>
+augroup NERDTreeCommand
+  autocmd!
+  autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+augroup end
 " Let vim store backup/swap/undo files in these directories
 " The double // will create files with whole path expanded.
 set backupdir=~/.vim/tmp/backup//
