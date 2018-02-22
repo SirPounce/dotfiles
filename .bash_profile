@@ -1,5 +1,5 @@
 # Add `~/bin` to the `$PATH`
-#export PATH="$HOME/bin:$PATH";
+export PATH="$HOME/bin:$PATH";
 export PATH=~/.local/bin:$PATH
 
 # Load the shell dotfiles, and then some:
