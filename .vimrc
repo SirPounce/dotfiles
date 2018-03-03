@@ -114,4 +114,16 @@ if has('syntax') && has('eval')
   packadd matchit
 endif
 
+"" shit for tmux running
 
+" Prompt for a command to run in the nearest tmux pane
+nnoremap <silent> <leader>tp :VimuxPromptCommand<CR>
+
+" Run last command executed by VimuxRunCommand
+nnoremap <silent> <leader>tr :call tmux#vimuxRunLastCommandIfExists()<CR>
+
+" Inspect runner pane
+nnoremap <silent> <leader>ti :VimuxInspectRunner<CR>
+
+" Zoom the tmux runner pane
+nnoremap <silent> <leader>tz :VimuxZoomRunner<CR>
