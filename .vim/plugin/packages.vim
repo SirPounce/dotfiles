@@ -55,3 +55,6 @@ call minpac#add('pangloss/vim-javascript', {'type': 'opt'})
 
 " html, css, json and javascript formatter
 call minpac#add('maksimr/vim-jsbeautify', {'type': 'opt'})
+
+" Move through tmux/vim panes with the same keybindings
+call minpac#add('christoomey/vim-tmux-navigator')
