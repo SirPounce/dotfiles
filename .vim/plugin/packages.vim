@@ -58,3 +58,6 @@ call minpac#add('maksimr/vim-jsbeautify', {'type': 'opt'})
 
 " Move through tmux/vim panes with the same keybindings
 call minpac#add('christoomey/vim-tmux-navigator')
+
+" Interact with tmux sessions
+call minpac#add('benmills/vimux')
