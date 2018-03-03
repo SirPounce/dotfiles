@@ -9,6 +9,12 @@ for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
 done;
 unset file;
 
+# Get completion for tmuxp commands
+eval "$(_TMUXP_COMPLETE=source tmuxp)"
+
+# Save tmuxp project config files under .tmux directory
+export TMUXP_CONFIGDIR=$HOME/.tmux/tmuxp
+
 # Case-insensitive globbing (used in pathname expansion)
 shopt -s nocaseglob;
 
