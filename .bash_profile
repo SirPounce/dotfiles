@@ -3,7 +3,7 @@ export PATH="$HOME/bin:$PATH";
 
 ## some stuff for alexa project
 export COBOT_HOME=~/Documents/personal/code/alexa/cobot; export PATH=$COBOT_HOME/bin:$PATH
-export FANTOM_WORKDIR=~/Documents/personal/code/alexa/amazon_alexa_challenge/
+export FANTOM_WORKDIR=~/Documents/personal/code/alexa/amazon_alexa_challenge
 export PATH="$FANTOM_WORKDIR/bin:$PATH";
 
 # Load the shell dotfiles, and then some:
