@@ -25,6 +25,7 @@ call minpac#add('tpope/vim-repeat')
 call minpac#add('tpope/vim-fugitive')
 call minpac#add('honza/vim-snippets')
 call minpac#add('scrooloose/nerdtree')
+call minpac#add('junegunn/fzf', {'dir': '~/.fzf', 'do': './install --all'})
 
 " Colorschemes
 "call minpac#add('morhetz/gruvbox', {'type': 'opt'})
