@@ -3,8 +3,11 @@ filetype plugin indent on	"To allow file type recognition etc.
 set number	"Line numbers
 syntax on	"Syntax Highlighting
 set hidden
-set textwidth=72
-set colorcolumn=+1
+
+" set textwidth=72
+" set colorcolumn=+1
+let &colorcolumn=join(range(81,999),",")
+highlight ColorColumn ctermbg=235 guibg=#2c2d27
 
 " Remap leader to space
 let mapleader="\<Space>"
