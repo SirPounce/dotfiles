@@ -23,9 +23,14 @@ call minpac#add('tpope/vim-surround')
 call minpac#add('tpope/vim-commentary')
 call minpac#add('tpope/vim-repeat')
 call minpac#add('tpope/vim-fugitive')
-call minpac#add('honza/vim-snippets')
 call minpac#add('scrooloose/nerdtree')
 call minpac#add('junegunn/fzf', {'dir': '~/.fzf', 'do': './install --all'})
+
+call minpac#add('Valloric/YouCompleteMe', {'do': '!./install.py --clang-completer --js-completer'})
+call minpac#add('SirVer/ultisnips')
+
+" Takes input from YCM and completes function parameters etc
+call minpac#add('tenfyzhong/CompleteParameter.vim')
 
 " Colorschemes
 "call minpac#add('morhetz/gruvbox', {'type': 'opt'})
@@ -38,10 +43,6 @@ call minpac#add('junegunn/fzf', {'dir': '~/.fzf', 'do': './install --all'})
 " is needed from AUR for the completion menu
 " Note: In the future I might want to add --js-completer option for Javascript
 "		Need the Node.js and npm for this to work
-call minpac#add('Valloric/YouCompleteMe', {'do': '!./install.py --clang-completer --js-completer'})
-call minpac#add('SirVer/ultisnips')
-" Takes input from YCM and completes function parameters etc
-call minpac#add('tenfyzhong/CompleteParameter.vim')
 
 " Helps with keeping a session saved that can
 " be restored after a reboot
@@ -51,8 +52,8 @@ call minpac#add('tenfyzhong/CompleteParameter.vim')
 " Should only be available in .html and .css files
 call minpac#add('mattn/emmet-vim', {'type': 'opt'})
 
-" Syntax highlighting for different Javascript frameworks
-call minpac#add('pangloss/vim-javascript', {'type': 'opt'})
+" " Syntax highlighting for different Javascript frameworks
+" call minpac#add('pangloss/vim-javascript', {'type': 'opt'})
 
 " html, css, json and javascript formatter
 call minpac#add('maksimr/vim-jsbeautify', {'type': 'opt'})
