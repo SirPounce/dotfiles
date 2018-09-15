@@ -136,8 +136,8 @@ nnoremap <silent> <leader>tz :VimuxZoomRunner<CR>
 
 " Fzf mappings
 " files
-nnoremap <leader>ff: <C-u>FZF<CR>
+nnoremap <leader>ff :<C-u>FZF<CR>
 " Git
-nnoremap <leader>fg: GFiles<CR>
+nnoremap <leader>fg :GFiles<CR>
 " Snippets
-nnoremap <leader>fg: Snippets<CR>
+nnoremap <leader>fg :Snippets<CR>
