@@ -24,7 +24,9 @@ call minpac#add('tpope/vim-commentary')
 call minpac#add('tpope/vim-repeat')
 call minpac#add('tpope/vim-fugitive')
 call minpac#add('scrooloose/nerdtree')
-call minpac#add('junegunn/fzf', {'dir': '~/.fzf', 'do': './install --all'})
+call minpac#add('junegunn/fzf', {'do': '!./install --bin'})
+call minpac#add('junegunn/fzf.vim')
+
 
 call minpac#add('Valloric/YouCompleteMe', {'do': '!./install.py --clang-completer --js-completer'})
 call minpac#add('SirVer/ultisnips')
