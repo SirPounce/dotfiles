@@ -8,7 +8,7 @@
 export EDITOR='vim';
 
 # Add fzf path
-export PATH="~/.vim/pack/minpac/start/fzf/bin:$PATH"
+export PATH=~/.sim/pack/minpac/start/fzf/bin:$PATH
 
 # Enable persistent REPL history for `node`.
 export NODE_REPL_HISTORY=~/.node_history;
