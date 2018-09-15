@@ -4,10 +4,18 @@ set number	"Line numbers
 syntax on	"Syntax Highlighting
 set hidden
 
-" set textwidth=72
-" set colorcolumn=+1
+" Introduces black boarder to avoid long lines
 let &colorcolumn=join(range(81,999),",")
 highlight ColorColumn ctermbg=235 guibg=#2c2d27
+
+" Show commands as they are being written
+set showcmd
+
+" Make it easier to see tabs and newlines
+set list
+set listchars=tab:▸\ ,eol:¬
+" js beautifier required
+let g:editorconfig_Beautifier = "~/.vim/.jsBeautifierConfig"
 
 " Remap leader to space
 let mapleader="\<Space>"
@@ -34,20 +42,12 @@ set backspace=indent,eol,start
 set backupdir=~/.vim/tmp/backup//
 set directory=~/.vim/tmp/swap//
 set undodir=~/.vim/tmp/undo//
-" Show commands as they are being written
-set showcmd
 
-" Make it easier to see tabs and newlines
-set list
-set listchars=tab:▸\ ,eol:¬
-" js beautifier required
-let g:editorconfig_Beautifier = "~/.vim/.jsBeautifierConfig"
-
-" TeX settings
-set grepprg=grep\ -nH\ $*
-set sw=2
-set iskeyword+=:
-let g:tex_flavor = 'latex'
+" " TeX settings
+" set grepprg=grep\ -nH\ $*
+" set sw=2
+" set iskeyword+=:
+" let g:tex_flavor = 'latex'
 
 " " VimTeX settings
 " let g:vimtex_view_general_viewer = '/Applications/Skim.app/Contents/SharedSupport/displayline'
@@ -120,7 +120,7 @@ if has('syntax') && has('eval')
   packadd matchit
 endif
 
-"" shit for tmux running
+" Tmux integration settings
 
 " Prompt for a command to run in the nearest tmux pane
 nnoremap <silent> <leader>tp :VimuxPromptCommand<CR>
