@@ -140,4 +140,4 @@ nnoremap <leader>ff :<C-u>FZF<CR>
 " Git
 nnoremap <leader>fg :GFiles<CR>
 " Snippets
-nnoremap <leader>fg :Snippets<CR>
+nnoremap <leader>fs :Snippets<CR>
