@@ -141,3 +141,7 @@ nnoremap <leader>ff :<C-u>FZF<CR>
 nnoremap <leader>fg :GFiles<CR>
 " Snippets
 nnoremap <leader>fs :Snippets<CR>
+
+" UltiSnips
+let g:UltiSnipsEditSplit="vertical"
+nnoremap <leader>se :UltiSnipsEdit<CR>
