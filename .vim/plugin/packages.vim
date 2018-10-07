@@ -35,7 +35,7 @@ call minpac#add('SirVer/ultisnips')
 call minpac#add('tenfyzhong/CompleteParameter.vim')
 
 " Colorschemes
-"call minpac#add('morhetz/gruvbox', {'type': 'opt'})
+call minpac#add('morhetz/gruvbox', {'type': 'opt'})
 
 " Add syntax highlighting for i3 config files
 "call minpac#add('mboughaba/i3config.vim', {'type': 'opt'})
