@@ -54,4 +54,4 @@ complete -W "NSGlobalDomain" defaults;
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
 
 # Link python to python 3
-alias python=python3
+# alias python=python3
