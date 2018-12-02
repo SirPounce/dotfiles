@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
 # export PATH="/usr/local/lib:$PATH"
+export PATH="/Users/jonas/bin/:$PATH"
