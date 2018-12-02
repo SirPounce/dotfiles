@@ -7,9 +7,9 @@
 # Make vim the default editor.
 export EDITOR='vim';
 
-# Add fzf path
-export PATH=~/.sim/pack/minpac/start/fzf/bin:$PATH
-export FZF_DEFAULT_COMMAND='rg --files'
+# # Add fzf path
+# export PATH=~/.sim/pack/minpac/start/fzf/bin:$PATH
+# export FZF_DEFAULT_COMMAND='rg --files'
 
 # Enable persistent REPL history for `node`.
 export NODE_REPL_HISTORY=~/.node_history;
