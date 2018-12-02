@@ -55,7 +55,7 @@ call minpac#add('morhetz/gruvbox', {'type': 'opt'})
 call minpac#add('mattn/emmet-vim', {'type': 'opt'})
 
 " " Syntax highlighting for different Javascript frameworks
-" call minpac#add('pangloss/vim-javascript', {'type': 'opt'})
+call minpac#add('pangloss/vim-javascript', {'type': 'opt'})
 
 " html, css, json and javascript formatter
 call minpac#add('maksimr/vim-jsbeautify', {'type': 'opt'})
