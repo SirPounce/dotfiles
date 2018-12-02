@@ -9,5 +9,6 @@ packadd vim-jsbeautify
 nnoremap <buffer> <C-f> :call JsBeautify()<CR>
 vnoremap <buffer> <C-f> :call RangeJsBeautify()<CR>
 
-" Tabs are four columns
-setlocal noexpandtab shiftwidth=4 softtabstop=4 tabstop=4
+" Indentation like java
+" setlocal noexpandtab shiftwidth=4 softtabstop=4 tabstop=4
+setlocal noexpandtab shiftwidth=2
