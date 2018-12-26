@@ -57,6 +57,9 @@ call minpac#add('mattn/emmet-vim', {'type': 'opt'})
 " " Syntax highlighting for different Javascript frameworks
 call minpac#add('pangloss/vim-javascript', {'type': 'opt'})
 
+" Especially jsx
+call minpac#add('mxw/vim-jsx')
+
 " html, css, json and javascript formatter
 call minpac#add('maksimr/vim-jsbeautify', {'type': 'opt'})
 
