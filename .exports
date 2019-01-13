@@ -4,6 +4,8 @@
 # export COBOT_HOME=~/projects/alexa/cobot; export PATH=$COBOT_HOME/bin:$PATH
 # export FANTOM_WORKDIR=~/projects/alexa/amazon_alexa_challenge; export PATH="$FANTOM_WORKDIR/bin:$PATH"
 
+export VIRTUALENVWRAPPER_PYTHON='/usr/local/bin/python3'
+
 # Make vim the default editor.
 export EDITOR='vim';
 
