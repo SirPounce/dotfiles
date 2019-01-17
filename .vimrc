@@ -149,7 +149,7 @@ nnoremap <leader>se :UltiSnipsEdit<CR>
 " YCM
 let g:ycm_confirm_extra_conf    = 0
 let g:ycm_complete_in_comments  = 1
-let g:ycm_global_ycm_extra_conf = g:dotvim.'~/.vim/pack/minpac/start/YouCompleteMe/.ycm_extra_conf.py'
+let g:ycm_global_ycm_extra_conf = '~/.vim/pack/minpac/start/YouCompleteMe/.ycm_extra_conf.py'
 let g:ycm_extra_conf_vim_data   = ['&filetype']
 let g:ycm_seed_identifiers_with_syntax = 1
 let g:ycm_filetype_blacklist = { 'help': 1 }
