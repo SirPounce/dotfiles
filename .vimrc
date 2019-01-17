@@ -146,4 +146,4 @@ nnoremap <leader>fs :Snippets<CR>
 let g:UltiSnipsEditSplit="vertical"
 nnoremap <leader>se :UltiSnipsEdit<CR>
 
-let g:ycm_global_ycm_extra_conf
+let g:ycm_global_ycm_extra_conf="~/.vim/pack/minpac/start/YouCompleteMe/.ycm_extra_conf.py"
