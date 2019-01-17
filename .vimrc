@@ -43,18 +43,6 @@ set backupdir=~/.vim/tmp/backup//
 set directory=~/.vim/tmp/swap//
 set undodir=~/.vim/tmp/undo//
 
-" " TeX settings
-" set grepprg=grep\ -nH\ $*
-" set sw=2
-" set iskeyword+=:
-" let g:tex_flavor = 'latex'
-
-" " VimTeX settings
-" let g:vimtex_view_general_viewer = '/Applications/Skim.app/Contents/SharedSupport/displayline'
-" let g:vimtex_view_general_options = '-r @line @pdf @tex'
-" let g:vimtex_fold_enabled = 0 "for opening large files"
-"
-
 " Fugitive settings (git)
 " -- Tpope fugitive commands --
 " Starting with <leader>g for harmless commands
@@ -143,5 +131,5 @@ nnoremap <leader>fg :GFiles<CR>
 nnoremap <leader>fs :Snippets<CR>
 
 " UltiSnips
-" let g:UltiSnipsEditSplit="vertical"
+let g:UltiSnipsEditSplit="vertical"
 nnoremap <leader>se :UltiSnipsEdit<CR>
