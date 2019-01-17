@@ -131,5 +131,19 @@ nnoremap <leader>fg :GFiles<CR>
 nnoremap <leader>fs :Snippets<CR>
 
 " UltiSnips
-let g:UltiSnipsEditSplit="vertical"
 nnoremap <leader>se :UltiSnipsEdit<CR>
+
+" Where Ultisnips searches for snippet files
+" let g:UltiSnipsSnippetDirectories = ["~/.vim/UltiSnips"]
+
+" Expand and cycle settings for snippets
+let g:UltiSnipsExpandTrigger = "<C-j>"
+let g:UltiSnipsJumpForwardTrigger = "<C-j>"
+let g:UltiSnipsJumpBackwardTrigger = "<C-k>"
+
+" Where to open split on :UltiSnipsEdit
+let g:UltisnipsEditSplit = "vertical"
+
+" Always use Python 3
+let g:UltisnipsUsePythonVersion = 3
+

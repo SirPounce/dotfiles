@@ -1,20 +1,4 @@
-" ULTISNIPS
-
-" Where Ultisnips searches for snippet files
-let g:UltiSnipsSnippetDirectories = ["~/.vim/UltiSnips"]
-
-" Expand and cycle settings for snippets
-let g:UltiSnipsExpandTrigger = "<C-j>"
-let g:UltiSnipsJumpForwardTrigger = "<C-j>"
-let g:UltiSnipsJumpBackwardTrigger = "<C-k>"
-
-" Where to open split on :UltiSnipsEdit
-let g:UltisnipsEditSplit = "vertical"
-
-" Always use Python 3
-let g:UltisnipsUsePythonVersion = 3
-
-" YOU COMPLETEME
+" YOU COMPLETE ME
 
 " Always use Python 3
 let g:ycm_python_binary_path = 'python3'
