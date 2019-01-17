@@ -1,3 +1,5 @@
+" ULTISNIPS
+
 " Where Ultisnips searches for snippet files
 let g:UltiSnipsSnippetDirectories = ["~/.vim/UltiSnips", "~/.vim/snips"]
 
@@ -11,12 +13,17 @@ let g:UltisnipsEditSplit = "vertical"
 
 " Always use Python 3
 let g:UltisnipsUsePythonVersion = 3
+
+" YOU COMPLETEME
+
+" Always use Python 3
 let g:ycm_python_binary_path = 'python3'
 
 " Don't open a buffer containing information about the completion
 let g:ycm_add_preview_to_completeopt = 0
 set completeopt-=preview
 
+" Fallback global conf for c location
 let g:ycm_global_ycm_extra_conf = "~/.ycm_extra_conf.py"
 
 " Use ctags files for autocompletion

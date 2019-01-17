@@ -143,5 +143,5 @@ nnoremap <leader>fg :GFiles<CR>
 nnoremap <leader>fs :Snippets<CR>
 
 " UltiSnips
+" let g:UltiSnipsEditSplit="vertical"
 nnoremap <leader>se :UltiSnipsEdit<CR>
-
