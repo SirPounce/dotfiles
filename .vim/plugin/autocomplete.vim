@@ -1,7 +1,7 @@
 " ULTISNIPS
 
 " Where Ultisnips searches for snippet files
-let g:UltiSnipsSnippetDirectories = ["~/.vim/UltiSnips", "~/.vim/snips"]
+let g:UltiSnipsSnippetDirectories = ["~/.vim/UltiSnips"]
 
 " Expand and cycle settings for snippets
 let g:UltiSnipsExpandTrigger = "<C-j>"
