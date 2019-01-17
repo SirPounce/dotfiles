@@ -143,8 +143,5 @@ nnoremap <leader>fg :GFiles<CR>
 nnoremap <leader>fs :Snippets<CR>
 
 " UltiSnips
-let g:UltiSnipsEditSplit="vertical"
 nnoremap <leader>se :UltiSnipsEdit<CR>
 
-" YCM
-let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
