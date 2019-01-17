@@ -145,3 +145,5 @@ nnoremap <leader>fs :Snippets<CR>
 " UltiSnips
 let g:UltiSnipsEditSplit="vertical"
 nnoremap <leader>se :UltiSnipsEdit<CR>
+
+let g:ycm_global_ycm_extra_conf
