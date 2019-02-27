@@ -31,6 +31,8 @@ call minpac#add('junegunn/fzf.vim')
 call minpac#add('Valloric/YouCompleteMe', {'do': '!./install.py --clang-completer --js-completer'})
 call minpac#add('SirVer/ultisnips')
 
+call minpac#add('LucHermitte/VimFold4C')
+
 " Takes input from YCM and completes function parameters etc
 call minpac#add('tenfyzhong/CompleteParameter.vim')
 
