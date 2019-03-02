@@ -147,3 +147,23 @@ let g:UltisnipsEditSplit = "vertical"
 " Always use Python 3
 let g:UltisnipsUsePythonVersion = 3
 
+" function! ToggleOption(option, letter)
+" 	let l:state = strridx(a:option, a:letter)
+" 	if l:state > 0
+" 		set a:option-=a:letter
+" 	else
+" 		set a:option+=a:letter
+" 	endif
+" endfunction
+" nnoremap <leader>tfo :call ToggleOption(&formatoptions, "t")<CR>
+
+function! ToggleFormatOptions()
+	let l:state = strridx(&formatoptions, "t")
+	if l:state > 0
+		set formatoptions-=t
+	else
+		set formatoptions+=t
+	endif
+endfunction
+nnoremap <leader>tfo :call ToggleFormatOptions()<CR>
+nnoremap <leader>cfo :set formatoptions?<CR>
