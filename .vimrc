@@ -134,7 +134,7 @@ nnoremap <leader>fs :Snippets<CR>
 nnoremap <leader>se :UltiSnipsEdit<CR>
 
 " Where Ultisnips searches for snippet files
-" let g:UltiSnipsSnippetDirectories = ["~/.vim/UltiSnips"]
+" let g:UltiSnipsSnippetDirectories = ['~/.vim/UltiSnips', 'UltiSnips']
 
 " Expand and cycle settings for snippets
 let g:UltiSnipsExpandTrigger = "<C-j>"
