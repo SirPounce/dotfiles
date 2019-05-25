@@ -9,6 +9,9 @@ for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
 done;
 unset file;
 
+# Haskell binaries
+source /Users/jonas/.ghcup/env
+
 # Get completion for tmuxp commands
 eval "$(_TMUXP_COMPLETE=source tmuxp)"
 
