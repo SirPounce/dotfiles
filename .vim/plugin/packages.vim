@@ -28,7 +28,8 @@ call minpac#add('junegunn/fzf', {'do': '!./install --bin'})
 call minpac#add('junegunn/fzf.vim')
 
 
-call minpac#add('Valloric/YouCompleteMe', {'do': '!./install.py --clang-completer --js-completer'})
+" call minpac#add('Valloric/YouCompleteMe', {'do': '!./install.py --clang-completer --js-completer'})
+call minpac#add('neoclide/coc.nvim')
 call minpac#add('SirVer/ultisnips')
 
 " call minpac#add('LucHermitte/VimFold4C')
